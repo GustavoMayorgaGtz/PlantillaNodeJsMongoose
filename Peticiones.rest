@@ -1,0 +1,15 @@
+
+##################################################
+# EJEMPLO 1
+POST http://localhost:5000/Registro/CrearRegistro
+Content-Type: application/json
+
+{
+    "nombre":"Gustavo",
+    "edad": 20
+}
+
+##################################################
+#EJEMPLO 2 ESTE NO TIENE REFERENCIA EN EL CODIGO PERO CUANDO SE USA UN GET CAMBIA LA SINTAXIS PARA UTILIZAR ESTA HERRAMIENTA
+# GET http://localhost:5000/Registro/ObtenerRegistros
+###################################################
